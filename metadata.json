@@ -1,0 +1,5 @@
+{
+  "name": "FutureWork AI",
+  "description": "A predictive analysis tool powered by Gemini that forecasts job market trends, automation risks, and future career paths based on industry, country, and role.",
+  "requestFramePermissions": []
+}
