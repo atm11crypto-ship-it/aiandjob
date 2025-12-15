@@ -1,7 +1,9 @@
 import { GoogleGenAI, Type, Schema } from "@google/genai";
 import { PredictionData, JobInput } from "../types";
 
-const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
+/* const ai = new GoogleGenAI({ apiKey: process.env.API_KEY }); */
+
+const ai = new GoogleGenAI({ apiKey: import.meta.env.VITE_GOOGLE_API_KEY });
 
 const responseSchema: Schema = {
   type: Type.OBJECT,
